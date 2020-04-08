@@ -41,7 +41,7 @@ public class StudentController {
         return studentService.get(id);
     }
 
-    @PostMapping("/{studentId}")
+    @PutMapping("/{studentId}")
     public int updateStudent(@PathVariable("studentId") int id, @RequestBody Student student) {
         System.out.println("About to get update for id: " + id);
         student.setId(id);
