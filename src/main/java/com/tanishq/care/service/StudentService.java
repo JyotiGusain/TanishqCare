@@ -4,7 +4,7 @@ import com.tanishq.care.model.Student;
 
 import java.util.List;
 
-public interface StudentService {
+public interface StudentService{
 
     int save(Student student);
 
